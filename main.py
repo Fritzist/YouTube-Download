@@ -9,4 +9,4 @@ videoname = input("Enter the name of the video: ")
 video = youtube.streams.get_highest_resolution()
 video.download(path, filename=videoname + ".mp4")
 
-print(videoname.upper() + " was downloaded successfully! Check your path ( " + path + " ) for the video.")
+print(videoname.upper() + " was successfully downloaded! Check your path ( " + path + " ) for the video.")
